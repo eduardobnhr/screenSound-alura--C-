@@ -1,7 +1,8 @@
 ﻿//screen sound
-
 String mensagem = "boas vindas ao screen sound";
-List<string> listaDasBandas = new List<string> { "U2", "ACDC", "GUNS N ROSES"};  
+//List<string> listaDasBandas = new List<string> { "U2", "ACDC", "GUNS N ROSES"};  
+
+Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
 
 void ExibirLogo()
 {
