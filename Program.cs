@@ -1,9 +1,7 @@
 ﻿//screen sound
 
-
-
 String mensagem = "boas vindas ao screen sound";
-List<string> listaDasBandas = new List<string>();  
+List<string> listaDasBandas = new List<string> { "U2", "ACDC", "GUNS N ROSES"};  
 
 void ExibirLogo()
 {
@@ -18,7 +16,6 @@ void ExibirLogo()
         ");
     Console.WriteLine(mensagem);
 }
-
 void ExibirOpcoesDoMenu()
 {
     Console.WriteLine("\nDigite 1 para registrar uma banda");
@@ -34,7 +31,7 @@ void ExibirOpcoesDoMenu()
     {
         case 1: RegistrarBandas();
             break; 
-        case 2: Console.WriteLine("voce escolheu a opcao " + opcaoEscolhidaNumerica);
+        case 2: MostrarBandasRegistradas();
                 break;
         case 3: Console.WriteLine("voce escolheu a opcao " + opcaoEscolhidaNumerica);
             break;
@@ -48,11 +45,10 @@ void ExibirOpcoesDoMenu()
     } 
 
 }
-
 void RegistrarBandas()
 {
     Console.Clear();
-    Console.WriteLine("Registro de bandas");
+    ExibirTituloDaOpcao("Registro das bandas");
     Console.WriteLine("Digite o nome da banda que deseja: ");
     string nomeDaBanda = Console.ReadLine()!;
     listaDasBandas.Add(nomeDaBanda);
@@ -60,6 +56,33 @@ void RegistrarBandas()
     Thread.Sleep(2000);
     Console.Clear();
     ExibirOpcoesDoMenu();
+}
+
+void MostrarBandasRegistradas()
+{
+    Console.Clear();
+    ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
+    //for (int i = 0; i < listaDasBandas.Count; i++)
+    // {
+    //   Console.WriteLine($"Banda: {listaDasBandas[i]}");
+    // }
+
+    foreach (string banda in listaDasBandas) 
+    {
+        Console.WriteLine($"Banda: {banda}");
+    }
+    Console.WriteLine("\nDigite qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesDoMenu();
+}
+void ExibirTituloDaOpcao(string titulo)
+{
+    int quantidadeDeLetras = titulo.Length;
+    string asteriscos = string.Empty.PadLeft(quantidadeDeLetras, '*');
+    Console.WriteLine(asteriscos);
+    Console.WriteLine(titulo);
+    Console.WriteLine(asteriscos + "\n");
 }
 
 ExibirLogo();
