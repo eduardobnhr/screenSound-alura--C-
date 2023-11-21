@@ -12,3 +12,17 @@ C:\Users\Alice amorim\source\repos\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net
 C:\Users\Alice amorim\source\repos\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net7.0\PrimeiroProjeto.pdb
 C:\Users\Alice amorim\source\repos\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net7.0\PrimeiroProjeto.genruntimeconfig.cache
 C:\Users\Alice amorim\source\repos\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net7.0\ref\PrimeiroProjeto.dll
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\bin\Debug\net7.0\PrimeiroProjeto.exe
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\bin\Debug\net7.0\PrimeiroProjeto.deps.json
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\bin\Debug\net7.0\PrimeiroProjeto.runtimeconfig.json
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\bin\Debug\net7.0\PrimeiroProjeto.dll
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\bin\Debug\net7.0\PrimeiroProjeto.pdb
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.dll
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\refint\PrimeiroProjeto.dll
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.pdb
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\PrimeiroProjeto.genruntimeconfig.cache
+C:\Users\laraujo\Source\Repos\screenSound-alura--C-\obj\Debug\net7.0\ref\PrimeiroProjeto.dll
